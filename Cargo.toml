@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "traffic-server-core",
+    "udp-client",
+    "udp-server"
+]
+
+[workspace.dependencies]
+rand = "0.8.5"
+tokio = "1.25.0"
